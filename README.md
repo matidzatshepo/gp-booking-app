@@ -56,46 +56,59 @@ The system uses several core entities connected via foreign key relationships:
 - **Availability** – Represents time slots during which the GP is available.
 - **MedicalRecord** *(optional/advanced)* – Stores additional patient history or uploaded files if needed in the future.
 
-**ERD Overview:**
+
+---
 
 ### 🧩 ERD Overview
 
-```text
-User
-- id (PK)
-- name
-- email
-- password
-- phone
+```mermaid
+erDiagram
+    User ||--o{ Appointment : books
+    User ||--o{ Review : writes
+    Doctor ||--o{ Appointment : attends
+    Doctor ||--o{ Review : receives
+    Doctor ||--o{ Availability : provides
 
-Doctor
-- id (PK)
-- name
-- specialization
-- contact_info
+    User {
+        int id PK
+        string name
+        string email
+        string password
+        string phone
+    }
 
-Appointment
-- id (PK)
-- user_id (FK)
-- doctor_id (FK)
-- date
-- time
-- status
+    Doctor {
+        int id PK
+        string name
+        string specialization
+        string contact_info
+    }
 
-Review
-- id (PK)
-- user_id (FK)
-- doctor_id (FK)
-- rating
-- comment
-- created_at
+    Appointment {
+        int id PK
+        int user_id FK
+        int doctor_id FK
+        date date
+        time time
+        string status
+    }
 
-Availability
-- id (PK)
-- doctor_id (FK)
-- date
-- time_slot
-- is_available
+    Review {
+        int id PK
+        int user_id FK
+        int doctor_id FK
+        int rating
+        string comment
+        datetime created_at
+    }
+
+    Availability {
+        int id PK
+        int doctor_id FK
+        date date
+        string time_slot
+        boolean is_available
+    }
 
 
 ---
@@ -103,7 +116,6 @@ Availability
 ### 📅 Booking System
 
 - Users can view available time slots based on the GP's availability.
-- Users can select a time and confirm an appointment.
 - Bookings are stored with timestamps, status (pending/confirmed/cancelled), and linked to both the user and doctor.
 
 ---
