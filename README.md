@@ -275,3 +275,11 @@ In today's fast-paced digital world, access to healthcare needs to be more strea
 ---
 
 > This project is more than just code—it's a real-world solution to modernize solo healthcare practices and improve the well-being of both patients and doctors.
+
+---
+
+---
+
+📁 Repository: doctor-booking-app
+
+---
