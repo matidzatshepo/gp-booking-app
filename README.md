@@ -109,7 +109,7 @@ erDiagram
         string time_slot
         boolean is_available
     }
-
+```
 
 ---
 
