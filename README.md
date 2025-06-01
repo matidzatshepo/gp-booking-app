@@ -277,6 +277,16 @@ In today's fast-paced digital world, access to healthcare needs to be more strea
 > This project is more than just code—it's a real-world solution to modernize solo healthcare practices and improve the well-being of both patients and doctors.
 
 ---
+### 👥 Team Roles
+
+| Role                  | Responsibilities                                                                 |
+|------------------------|----------------------------------------------------------------------------------|
+| 🧠 Project Manager      | Leads planning, task coordination, and ensures milestones are met.              |
+| 💻 Backend Developer    | Implements core APIs, database models, authentication, and server-side logic.   |
+| 🎨 Frontend Developer   | Designsss UI, builds responsive interfaces, integrates APIs.                      |
+| 🧪 QA Engineer          | Writes test cases, performs bug testing, and ensures app stability.             |
+| ⚙️ DevOps Engineer      | Manages CI/CD, deployment pipelines, cloud infrastructure, and environment setup.|
+| 🛠 Full-Stack Developer | Bridges backend and frontend development, resolves bugs, and optimizes features.|
 
 ---
 
