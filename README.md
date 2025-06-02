@@ -283,7 +283,7 @@ In today's fast-paced digital world, access to healthcare needs to be more strea
 |------------------------|----------------------------------------------------------------------------------|
 | 🧠 Project Manager      | Leads planning, task coordination, and ensures milestones are met.              |
 | 💻 Backend Developer    | Implements core APIs, database models, authentication, and server-side logic.   |
-| 🎨 Frontend Developer   | Designsss UI, builds responsive interfaces, integrates APIs.                      |
+| 🎨 Frontend Developer   | Designssss UI, builds responsive interfaces, integrates APIs.                      |
 | 🧪 QA Engineer          | Writes test cases, performs bug testing, and ensures app stability.             |
 | ⚙️ DevOps Engineer      | Manages CI/CD, deployment pipelines, cloud infrastructure, and environment setup.|
 | 🛠 Full-Stack Developer | Bridges backend and frontend development, resolves bugs, and optimizes features.|

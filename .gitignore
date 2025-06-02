@@ -5,6 +5,8 @@ server/node_modules/
 # Enviroment files
 client/.env 
 server/.env 
+venv/
+.env
 
 # Logs
 npm-debug.log*
@@ -22,3 +24,12 @@ Thumbs.db
 # Editor settings
 .vscode/
 .idea/
+
+# Python bytecode cache
+__pycache__/
+
+# compiled Python files
+*.pyc
+
+# DB private
+db.sqlite3
