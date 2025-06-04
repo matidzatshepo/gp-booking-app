@@ -25,11 +25,15 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Python bytecode cache
+# Python 
 __pycache__/
-
-# compiled Python files
+*.py[cod]
+*.sqlite3
+*.log
 *.pyc
 
-# DB private
+# Django
 db.sqlite3
+*.pot 
+*.pyc
+*.pyo
