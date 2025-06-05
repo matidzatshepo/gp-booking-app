@@ -45,3 +45,7 @@ staticfiles/
 # Django Migrations (optional, only if you don’t want to commit them)
 **/migrations/*.py
 !**/migrations/__init__.py
+
+
+# JWT Tokens (if saved manually)
+*.jwt
