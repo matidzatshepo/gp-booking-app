@@ -129,3 +129,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # This tells Django to use api.User instead of the default auth.User
 AUTH_USER_MODEL = 'api.User'
+
+# DRF Authentication 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
